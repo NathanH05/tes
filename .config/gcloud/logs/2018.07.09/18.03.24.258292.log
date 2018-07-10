@@ -1,0 +1,30 @@
+2018-07-09 18:03:24,259 DEBUG    root            Loaded Command Group: [u'gcloud', u'services']
+2018-07-09 18:03:24,260 DEBUG    root            Loaded Command Group: [u'gcloud', u'services', u'enable']
+2018-07-09 18:03:24,262 DEBUG    root            Running [gcloud.services.enable] with arguments: [SERVICE:2: "[u'container', u'compute']"]
+2018-07-09 18:03:25,793 DEBUG    root            (gcloud.services.enable) FAILED_PRECONDITION: Operation does not satisfy the following requirements: billing-enabled {Billing must be enabled for activation of service '' in project 'strange-victory-145623' to proceed., https://console.developers.google.com/project/strange-victory-145623/settings}
+Traceback (most recent call last):
+  File "/usr/lib64/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 846, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/usr/lib64/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 768, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib64/google-cloud-sdk/lib/surface/services/enable.py", line 82, in Run
+    operation = enable_api.EnableServiceApiCall(project, service_name)
+  File "/usr/lib64/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/enable_api.py", line 56, in EnableServiceApiCall
+    return client.services.Enable(request)
+  File "/usr/lib64/google-cloud-sdk/lib/googlecloudsdk/third_party/apis/servicemanagement/v1/servicemanagement_v1_client.py", line 829, in Enable
+    config, request, global_params=global_params)
+  File "/usr/lib64/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 731, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+  File "/usr/lib64/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 737, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+  File "/usr/lib64/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 604, in __ProcessHttpResponse
+    http_response, method_config=method_config, request=request)
+HttpBadRequestError: HttpError accessing <https://servicemanagement.googleapis.com/v1/services/container:enable?alt=json>: response: <{'status': '400', 'content-length': '345', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Mon, 09 Jul 2018 18:03:25 GMT', 'x-frame-options': 'SAMEORIGIN', 'alt-svc': 'quic=":443"; ma=2592000; v="43,42,41,39,35"', 'content-type': 'application/json; charset=UTF-8'}>, content <{
+  "error": {
+    "code": 400,
+    "message": "Operation does not satisfy the following requirements: billing-enabled {Billing must be enabled for activation of service '' in project 'strange-victory-145623' to proceed., https://console.developers.google.com/project/strange-victory-145623/settings}",
+    "status": "FAILED_PRECONDITION"
+  }
+}
+>
+2018-07-09 18:03:25,795 ERROR    root            (gcloud.services.enable) FAILED_PRECONDITION: Operation does not satisfy the following requirements: billing-enabled {Billing must be enabled for activation of service '' in project 'strange-victory-145623' to proceed., https://console.developers.google.com/project/strange-victory-145623/settings}

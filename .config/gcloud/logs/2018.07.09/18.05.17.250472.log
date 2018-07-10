@@ -1,0 +1,71 @@
+2018-07-09 18:05:17,253 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2018-07-09 18:05:17,255 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2018-07-09 18:05:17,257 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'create']
+2018-07-09 18:05:17,285 DEBUG    root            Running [gcloud.container.clusters.create] with arguments: [--enable-autoscaling: "True", --labels: "{u'created-by': u'ec2-user'}", --machine-type: "n1-standard-2", --max-nodes: "3", --min-nodes: "2", --num-nodes: "2", --zone: "europe-north1-c", NAME: "stingerfreckle"]
+2018-07-09 18:05:17,286 WARNING  root            Currently node auto repairs are disabled by default. In the future this will change and they will be enabled by default. Use `--[no-]enable-autorepair` flag  to suppress this warning.
+2018-07-09 18:05:17,287 WARNING  root            Starting in Kubernetes v1.10, new clusters will no longer get compute-rw and storage-ro scopes added to what is specified in --scopes (though the latter will remain included in the default --scopes). To use these scopes, add them explicitly to --scopes. To use the new behavior, set container/new_scopes_behavior property (gcloud config set container/new_scopes_behavior true).
+2018-07-09 18:05:21,287 INFO     ___FILE_ONLY___ Creating cluster stingerfreckle...
+2018-07-09 18:07:38,735 INFO     root            Operation <Operation
+ endTime: u'2018-07-09T18:07:35.183744446Z'
+ name: u'operation-1531159521245-82a9747f'
+ operationType: OperationTypeValueValuesEnum(CREATE_CLUSTER, 1)
+ selfLink: u'https://container.googleapis.com/v1/projects/148513700320/zones/europe-north1-c/operations/operation-1531159521245-82a9747f'
+ startTime: u'2018-07-09T18:05:21.245562746Z'
+ status: StatusValueValuesEnum(DONE, 3)
+ targetLink: u'https://container.googleapis.com/v1/projects/148513700320/zones/europe-north1-c/clusters/stingerfreckle'
+ zone: u'europe-north1-c'> succeeded after 0.070 seconds
+2018-07-09 18:07:39,519 INFO     ___FILE_ONLY___ Created [https://container.googleapis.com/v1/projects/sound-oasis-209713/zones/europe-north1-c/clusters/stingerfreckle].
+
+2018-07-09 18:07:39,519 INFO     ___FILE_ONLY___ To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/europe-north1-c/stingerfreckle?project=sound-oasis-209713
+
+2018-07-09 18:07:39,520 DEBUG    root            unable to load default kubeconfig: unable to load kubeconfig for /home/ec2-user/.kube/config: Unable to read file [/home/ec2-user/.kube/config]: [Errno 2] No such file or directory: '/home/ec2-user/.kube/config'; recreating /home/ec2-user/.kube/config
+2018-07-09 18:07:39,526 DEBUG    root            Saved kubeconfig to /home/ec2-user/.kube/config
+2018-07-09 18:07:39,526 INFO     ___FILE_ONLY___ kubeconfig entry generated for stingerfreckle.
+
+2018-07-09 18:07:39,527 INFO     root            Display format: "
+    table(
+        name,
+        zone:label=LOCATION,
+        master_version():label=MASTER_VERSION,
+        endpoint:label=MASTER_IP,
+        nodePools[0].config.machineType,
+        currentNodeVersion:label=NODE_VERSION,
+        firstof(currentNodeCount,initialNodeCount):label=NUM_NODES,
+        status
+    )
+"
+2018-07-09 18:07:39,530 INFO     ___FILE_ONLY___ NAME
+2018-07-09 18:07:39,530 INFO     ___FILE_ONLY___             
+2018-07-09 18:07:39,530 INFO     ___FILE_ONLY___ LOCATION
+2018-07-09 18:07:39,530 INFO     ___FILE_ONLY___          
+2018-07-09 18:07:39,530 INFO     ___FILE_ONLY___ MASTER_VERSION
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ MASTER_IP
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___       
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ MACHINE_TYPE
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___    
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ NODE_VERSION
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ NUM_NODES
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ STATUS
+2018-07-09 18:07:39,531 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ stingerfreckle
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ europe-north1-c
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ 1.9.7-gke.3
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___      
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ 35.228.57.122
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ n1-standard-2
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___   
+2018-07-09 18:07:39,532 INFO     ___FILE_ONLY___ 1.9.7-gke.3
+2018-07-09 18:07:39,533 INFO     ___FILE_ONLY___    
+2018-07-09 18:07:39,533 INFO     ___FILE_ONLY___ 2
+2018-07-09 18:07:39,533 INFO     ___FILE_ONLY___           
+2018-07-09 18:07:39,533 INFO     ___FILE_ONLY___ RUNNING
+2018-07-09 18:07:39,533 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:07:39,534 DEBUG    root            SDK update checks are disabled.

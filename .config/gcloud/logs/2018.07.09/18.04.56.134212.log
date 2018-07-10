@@ -1,0 +1,365 @@
+2018-07-09 18:04:56,135 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'zones']
+2018-07-09 18:04:56,140 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'zones', u'list']
+2018-07-09 18:04:56,143 DEBUG    root            Running [gcloud.compute.zones.list] with arguments: []
+2018-07-09 18:04:56,232 INFO     root            Display format: "        table(name,
+              region.basename(),
+              status():label=STATUS,
+              maintenanceWindows.next_maintenance():label=NEXT_MAINTENANCE,
+              deprecated.deleted:label=TURNDOWN_DATE
+        )"
+2018-07-09 18:04:56,584 INFO     root            cache collection=compute.zones api_version=v1 params=[u'project', u'zone']
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___ NAME
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___                        
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___ REGION
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___                    
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___ STATUS
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___ NEXT_MAINTENANCE
+2018-07-09 18:04:56,588 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ TURNDOWN_DATE
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ us-east1-b
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ us-east1
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ us-east1-c
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,589 INFO     ___FILE_ONLY___ us-east1
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ us-east1-d
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ us-east1
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___ us-east4-c
+2018-07-09 18:04:56,590 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ us-east4
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ us-east4-b
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ us-east4
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,591 INFO     ___FILE_ONLY___ us-east4-a
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ us-east4
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ us-central1-c
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ us-central1
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,592 INFO     ___FILE_ONLY___ us-central1-a
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ us-central1
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ us-central1-f
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ us-central1
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,593 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ us-central1-b
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ us-central1
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ us-west1-b
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ us-west1
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,594 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ us-west1-c
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ us-west1
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ us-west1-a
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,595 INFO     ___FILE_ONLY___ us-west1
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___                  
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ europe-west4-a
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ europe-west4
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___ europe-west4-b
+2018-07-09 18:04:56,596 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ europe-west4
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ europe-west4-c
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ europe-west4
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,597 INFO     ___FILE_ONLY___ europe-west1-b
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ europe-west1
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ europe-west1-d
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ europe-west1
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,598 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ europe-west1-c
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ europe-west1
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ europe-west3-b
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___ europe-west3
+2018-07-09 18:04:56,599 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ europe-west3-c
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ europe-west3
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ europe-west3-a
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,600 INFO     ___FILE_ONLY___ europe-west3
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ europe-west2-c
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ europe-west2
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,601 INFO     ___FILE_ONLY___ europe-west2-b
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ europe-west2
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ europe-west2-a
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ europe-west2
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___              
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,602 INFO     ___FILE_ONLY___ asia-east1-b
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ asia-east1
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ asia-east1-a
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ asia-east1
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,603 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ asia-east1-c
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ asia-east1
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___                
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ asia-southeast1-b
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ asia-southeast1
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,604 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ asia-southeast1-a
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ asia-southeast1
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ asia-southeast1-c
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,605 INFO     ___FILE_ONLY___ asia-southeast1
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ asia-northeast1-b
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ asia-northeast1
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,606 INFO     ___FILE_ONLY___ asia-northeast1-c
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ asia-northeast1
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ asia-northeast1-a
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ asia-northeast1
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,607 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ asia-south1-c
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ asia-south1
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ asia-south1-b
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ asia-south1
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,608 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ asia-south1-a
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ asia-south1
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ australia-southeast1-b
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,609 INFO     ___FILE_ONLY___ australia-southeast1
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ australia-southeast1-c
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ australia-southeast1
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,610 INFO     ___FILE_ONLY___ australia-southeast1-a
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ australia-southeast1
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___      
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ southamerica-east1-b
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ southamerica-east1
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,611 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ southamerica-east1-c
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ southamerica-east1
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ southamerica-east1-a
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,612 INFO     ___FILE_ONLY___ southamerica-east1
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___        
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ europe-north1-a
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ europe-north1
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,613 INFO     ___FILE_ONLY___ europe-north1-b
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ europe-north1
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ europe-north1-c
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ europe-north1
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___             
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,614 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ northamerica-northeast1-a
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ northamerica-northeast1
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ northamerica-northeast1-b
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___ northamerica-northeast1
+2018-07-09 18:04:56,615 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ northamerica-northeast1-c
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ northamerica-northeast1
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ UP
+2018-07-09 18:04:56,616 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:56,617 DEBUG    root            SDK update checks are disabled.

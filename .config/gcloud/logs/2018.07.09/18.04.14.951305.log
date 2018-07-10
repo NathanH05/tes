@@ -1,0 +1,26 @@
+2018-07-09 18:04:14,952 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects']
+2018-07-09 18:04:14,954 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects', u'list']
+2018-07-09 18:04:14,956 DEBUG    root            Running [gcloud.projects.list] with arguments: []
+2018-07-09 18:04:14,956 INFO     root            client_filter="None" server_filter="None"
+2018-07-09 18:04:14,969 INFO     root            Display format: "
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+"
+2018-07-09 18:04:15,888 INFO     ___FILE_ONLY___ PROJECT_ID
+2018-07-09 18:04:15,888 INFO     ___FILE_ONLY___           
+2018-07-09 18:04:15,888 INFO     ___FILE_ONLY___ NAME
+2018-07-09 18:04:15,888 INFO     ___FILE_ONLY___               
+2018-07-09 18:04:15,888 INFO     ___FILE_ONLY___ PROJECT_NUMBER
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___ sound-oasis-209713
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___ My First Project
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___   
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___ 148513700320
+2018-07-09 18:04:15,889 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:04:15,890 DEBUG    root            SDK update checks are disabled.

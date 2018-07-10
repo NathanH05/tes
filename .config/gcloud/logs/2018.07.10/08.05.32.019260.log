@@ -1,0 +1,27 @@
+2018-07-10 08:05:32,020 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2018-07-10 08:05:32,022 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2018-07-10 08:05:32,024 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2018-07-10 08:05:32,037 INFO     oauth2client.client Refreshing access_token
+2018-07-10 08:05:32,110 INFO     root            Display format: "default json"
+2018-07-10 08:05:32,110 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "joe.hdt22@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "sound-oasis-209713"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.Glz0BdK4HsHiNFiVEPFr28sOY1275c2mv_2KYeQrT6ZhcxOv_1kfIyTQjikzqUMLHVgOQEjhNIsdCe0mT2nte7O1FGOfEtCvJ8mDmoq8R6FjZbCx9I_fMB9nmyO1Xg",
+    "token_expiry": "2018-07-10T09:05:32Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/ec2-user/.config/gcloud/config_sentinel"
+  }
+}
+2018-07-10 08:05:32,110 INFO     ___FILE_ONLY___ 
+
+2018-07-10 08:05:32,111 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,15 @@
+2018-07-09 18:04:16,652 DEBUG    root            Loaded Command Group: [u'gcloud', u'services']
+2018-07-09 18:04:16,654 DEBUG    root            Loaded Command Group: [u'gcloud', u'services', u'enable']
+2018-07-09 18:04:16,656 DEBUG    root            Running [gcloud.services.enable] with arguments: [SERVICE:2: "[u'container', u'compute']"]
+2018-07-09 18:04:18,750 INFO     ___FILE_ONLY___ Waiting for async operation operations/tmo-acf.90c243fb-3fdc-4118-b5dd-a618163f6b19 to complete...
+
+2018-07-09 18:04:37,446 INFO     ___FILE_ONLY___ Operation finished successfully. The following command can describe the Operation details:
+ gcloud services operations describe operations/tmo-acf.90c243fb-3fdc-4118-b5dd-a618163f6b19
+
+2018-07-09 18:04:39,425 INFO     ___FILE_ONLY___ Waiting for async operation operations/tmo-acf.dc1faa70-8a36-441b-8976-5f46e0721359 to complete...
+
+2018-07-09 18:04:55,745 INFO     ___FILE_ONLY___ Operation finished successfully. The following command can describe the Operation details:
+ gcloud services operations describe operations/tmo-acf.dc1faa70-8a36-441b-8976-5f46e0721359
+
+2018-07-09 18:04:55,746 INFO     root            Display format: "none"
+2018-07-09 18:04:55,747 DEBUG    root            SDK update checks are disabled.

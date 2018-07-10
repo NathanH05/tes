@@ -1,0 +1,7 @@
+2018-07-09 18:08:04,168 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2018-07-09 18:08:04,170 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'get_value']
+2018-07-09 18:08:04,172 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "core/account"]
+2018-07-09 18:08:04,173 INFO     root            Display format: "value(.)"
+2018-07-09 18:08:04,173 INFO     ___FILE_ONLY___ joe.hdt22@gmail.com
+
+2018-07-09 18:08:04,177 DEBUG    root            SDK update checks are disabled.

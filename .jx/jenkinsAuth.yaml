@@ -1,0 +1,12 @@
+servers:
+- url: http://jenkins.jx.35.228.79.39.nip.io
+  users:
+  - username: admin
+    apitoken: 2ddea893bb3a665cd6834ae5973a95a7
+    bearertoken: ""
+    password: diverapid
+  name: jenkins.jx.35.228.79.39.nip.io
+  kind: ""
+  currentuser: ""
+defaultusername: ""
+currentserver: http://jenkins.jx.35.228.79.39.nip.io

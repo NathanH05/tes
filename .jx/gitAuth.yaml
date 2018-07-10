@@ -1,0 +1,11 @@
+servers:
+- url: https://github.com
+  users:
+  - username: NathanH05
+    apitoken: 20a5e0a3d2e5af50b0f58f55ad1ed55b43fdcc2e
+    bearertoken: ""
+  name: GitHub
+  kind: github
+  currentuser: NathanH05
+defaultusername: NathanH05
+currentserver: https://github.com

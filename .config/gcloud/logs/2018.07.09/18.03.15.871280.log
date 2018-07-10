@@ -1,0 +1,40 @@
+2018-07-09 18:03:15,872 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects']
+2018-07-09 18:03:15,874 DEBUG    root            Loaded Command Group: [u'gcloud', u'projects', u'list']
+2018-07-09 18:03:15,876 DEBUG    root            Running [gcloud.projects.list] with arguments: []
+2018-07-09 18:03:15,876 INFO     root            client_filter="None" server_filter="None"
+2018-07-09 18:03:15,888 INFO     root            Display format: "
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+"
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ PROJECT_ID
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___               
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ NAME
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___         
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ PROJECT_NUMBER
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ firebase-testsignon
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___      
+2018-07-09 18:03:16,903 INFO     ___FILE_ONLY___ testSignOn
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___   
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ 180332685904
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ lister-1310
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___              
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ Lister
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___       
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ 747760222158
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:03:16,904 INFO     ___FILE_ONLY___ strange-victory-145623
+2018-07-09 18:03:16,905 INFO     ___FILE_ONLY___   
+2018-07-09 18:03:16,905 INFO     ___FILE_ONLY___ My Project
+2018-07-09 18:03:16,905 INFO     ___FILE_ONLY___   
+2018-07-09 18:03:16,905 INFO     ___FILE_ONLY___ 622617585576
+2018-07-09 18:03:16,905 INFO     ___FILE_ONLY___ 
+
+2018-07-09 18:03:16,906 DEBUG    root            SDK update checks are disabled.

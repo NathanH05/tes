@@ -1,0 +1,12 @@
+servers:
+- url: http://chartmuseum.jx.35.228.79.39.nip.io
+  users:
+  - username: admin
+    apitoken: ""
+    bearertoken: ""
+    password: diverapid
+  name: chartmuseum.jx.35.228.79.39.nip.io
+  kind: ""
+  currentuser: ""
+defaultusername: ""
+currentserver: http://chartmuseum.jx.35.228.79.39.nip.io

@@ -1,0 +1,7 @@
+2018-07-09 18:04:16,269 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2018-07-09 18:04:16,271 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2018-07-09 18:04:16,273 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "sound-oasis-209713"]
+2018-07-09 18:04:16,274 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2018-07-09 18:04:16,274 INFO     root            Display format: "default"
+2018-07-09 18:04:16,279 DEBUG    root            SDK update checks are disabled.
